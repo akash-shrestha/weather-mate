@@ -1,8 +1,11 @@
 # Weather Mate app
 
+## Deployment
+https://weather-mate-ten.vercel.app/
+
 ## About
 
-App where user can enter a location and find the weather information about the valid location
+An app where users can enter a location and find the weather information about the valid location
 
 ## Getting started
 
@@ -10,7 +13,7 @@ App where user can enter a location and find the weather information about the v
 
 - Clone the repo
 - Navigate to root dir
-- Create .env from .env.example (The api key included is probably valid)
+- Create .env from .env.example (The API key included is probably valid)
 - Run 'npm install'
 - Run 'npm start'
 - Visit 'http://localhost:3000/'
@@ -30,13 +33,13 @@ _Code Organization and Modularity:_
 _Error Handling and Validation:_
 
 - Implement proper error handling mechanisms throughout the application to provide meaningful error messages to the user.
-- Validate user input to ensure that only valid locations are accepted for weather information retrieval.
+- Validate user input to ensure only valid locations are accepted for weather information retrieval.
 - Handle network errors, timeouts, and API failures gracefully to provide a better user experience.
 
 _User Interface and Design:_
 
 - Improve the overall user interface design to make it more visually appealing and user-friendly.
-- Enhance the responsiveness of the application to support different screen sizes and devices.
+- Enhance the application's responsiveness to support different screen sizes and devices.
 - Incorporate intuitive UI/UX elements such as loading spinners, error notifications, and progress indicators to provide feedback to the user.
 
 _API Key Security:_
