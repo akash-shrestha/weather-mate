@@ -13,7 +13,7 @@ const useForecast = () => {
   const getSearchOptions = (term: string) => {
     fetch(
       `${BASE_URL}/geo/1.0/direct?q=${term.trim()}&limit=5&lang=en&appid=${
-        process.env.REACT_APP_API_KEY
+        process.env.REACT_APP_ID
       }`
     )
       .then((res) => res.json())
@@ -29,7 +29,7 @@ const useForecast = () => {
 
   const getForecast = (data: optionType) => {
     fetch(
-      `${BASE_URL}/data/2.5/forecast?lat=${data.lat}&lon=${data.lon}&units=metric&lang=en&appid=${process.env.REACT_APP_API_KEY}`
+      `${BASE_URL}/data/2.5/forecast?lat=${data.lat}&lon=${data.lon}&units=metric&lang=en&appid=${process.env.REACT_APP_ID}`
     )
       .then((res) => res.json())
       .then((data) => {
